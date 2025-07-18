@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoboAI.LoginPage"
+             Title="Login">
+    <ScrollView>
+        <VerticalStackLayout Spacing="20" Padding="30">
+            <Image Source="cobo_logo.svg" HeightRequest="120" WidthRequest="120" HorizontalOptions="Center" />
+            <Entry x:Name="UsernameEntry" Placeholder="Username" />
+            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" />
+            <Button Text="Login" Clicked="OnLoginClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
