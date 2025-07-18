@@ -8,6 +8,11 @@
     Title="CoboAI">
 
     <ShellContent
+        Title="Assets"
+        ContentTemplate="{DataTemplate local:AiAssetsPage}"
+        Route="AiAssetsPage" />
+
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
